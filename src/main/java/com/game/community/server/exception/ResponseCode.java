@@ -1,7 +1,9 @@
 package com.game.community.server.exception;
 
+import lombok.ToString;
 import org.springframework.http.HttpStatus;
 
+@ToString
 public enum ResponseCode {
 
     // HTTP Status 200
@@ -30,7 +32,7 @@ public enum ResponseCode {
     private final HttpStatus httpStatus;
 
 
-    private ResponseCode(String code, String message, HttpStatus httpStatus) {
+    ResponseCode(String code, String message, HttpStatus httpStatus) {
         this.code = code;
         this.message = message;
         this.httpStatus = httpStatus;
@@ -48,12 +50,4 @@ public enum ResponseCode {
         return httpStatus;
     }
 
-    @Override
-    public String toString() {
-        return "ResponseCode{" +
-                "code='" + code + '\'' +
-                ", message='" + message + '\'' +
-                ", httpStatus=" + httpStatus +
-                '}';
-    }
 }
