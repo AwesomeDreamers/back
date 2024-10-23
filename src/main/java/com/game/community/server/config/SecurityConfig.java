@@ -1,12 +1,6 @@
 package com.game.community.server.config;
 
-import com.sun.net.httpserver.Headers;
-import jakarta.mail.Header;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import org.springframework.boot.web.client.RestTemplateBuilder;
-import org.springframework.boot.web.servlet.FilterRegistrationBean;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;
