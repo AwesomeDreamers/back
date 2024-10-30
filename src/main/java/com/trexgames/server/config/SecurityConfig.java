@@ -1,4 +1,4 @@
-package com.game.community.server.config;
+package com.trexgames.server.config;
 
 
 import org.springframework.context.annotation.Bean;

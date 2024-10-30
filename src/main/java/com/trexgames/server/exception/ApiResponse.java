@@ -1,4 +1,4 @@
-package com.game.community.server.exception;
+package com.trexgames.server.exception;
 
 import lombok.Getter;
 import org.springframework.http.ResponseEntity;
